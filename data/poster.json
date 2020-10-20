@@ -1,0 +1,153 @@
+{
+    "poster": [
+        {
+            "films": [
+                {
+                    "id": 1,
+                    "name": "Terminator",
+                    "genre": "Action",
+                    "director": "James Cameron",
+                    "duration": "2h",
+                    "cover": "terminator.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Terminator",
+                            "name": "Arnold Schwarzenegger"
+                        },
+                        {
+                            "character": "Constantin",
+                            "name": "Linda Hamilton"
+                        },
+                        {
+                            "character": "Lorca",
+                            "name": "Michael Biehn"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Alien",
+                    "genre": "Sci-Fi",
+                    "director": "Ridley Scott",
+                    "duration": "2h",
+                    "cover": "alien.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Dallas",
+                            "name": "Tom Skerritt"
+                        },
+                        {
+                            "character": "Ripley",
+                            "name": "Sigourney Weaver"
+                        },
+                        {
+                            "character": "Lambert",
+                            "name": "Veronica Cartwright"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Matrix",
+                    "genre": "Action",
+                    "director": "James Cameron",
+                    "duration": "2h 16min",
+                    "cover": "matrix.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Neo",
+                            "name": "Keanu Reeves"
+                        },
+                        {
+                            "character": "Morpheus",
+                            "name": "Laurence Fishburne"
+                        },
+                        {
+                            "character": "Trinity",
+                            "name": "Carrie-Anne Moss"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "id": 1,
+                    "name": "Chernobyl",
+                    "genre": "Drama",
+                    "director": "Craig Mazin",
+                    "cover": "chernobyl.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Jessie",
+                            "name": "Jessie Buckley"
+                        },
+                        {
+                            "character": "Constantin",
+                            "name": "Jared Harris"
+                        },
+                        {
+                            "character": "Lorca",
+                            "name": "Stellan Skarsgard"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Fariña",
+                    "genre": "Crime",
+                    "director": "Carlos Sedes",
+                    "cover": "farinya.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Sito Miñanco",
+                            "name": "Javier Rey"
+                        },
+                        {
+                            "character": "Darío Castro",
+                            "name": "Tristán Ulloa"
+                        },
+                        {
+                            "character": "Manuel Charlín",
+                            "name": "Antonio Durán"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "La casa de papel",
+                    "genre": "Action",
+                    "director": "Álex Pina",
+                    "cover": "lacasadepapel.jpg",
+                    "price": "50€",
+                    "sinopsis": "texto",
+                    "stars": [
+                        {
+                            "character": "Tokio",
+                            "name": "Úrsula Corberó"
+                        },
+                        {
+                            "character": "Raquel Murillo",
+                            "name": "Itziar Ituño"
+                        },
+                        {
+                            "character": "El profesor",
+                            "name": "Álvaro Morte"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+<video>
+  <films>
+    <film id="1" name="Terminator">
+      <genre>Drama</genre>
+      <director>James Cameron</director>
+      <duration>2h</duration>
+      <stars>
+          <star character="Pep">Arnold Schwarzenegger</star>
+          <star character="Constantin">Linda Hamilton</star>
+          <star character="Lorca">Michael Biehn</star>
+      </stars>
+      <cover>terminator.jpg</cover>
+			<price>130€</price>
+    </film>
+    <film id="2" name="Alien">
+      <genre>Sci-Fi</genre>
+      <director>Ridley Scott</director>
+      <duration>2h 30min</duration>
+      <stars>
+          <star character="Dallas">Tom Skerritt</star>
+          <star character="Ripley">Sigourney Weaver</star>
+          <star character="Lambert">Veronica Cartwright </star>
+      </stars>
+      <cover>alien.jpg</cover>
+    </film>
+    <film id="3" name="Matrix">
+      <genre>Action</genre>
+      <director>James Cameron</director>
+      <duration>2h 16min</duration>
+      <stars>
+          <star character="Neo">Keanu Reeves</star>
+          <star character="Morpheus">Laurence Fishburne</star>
+          <star character="Trinity">Carrie-Anne Moss</star>
+      </stars>
+      <cover>matrix.jpg</cover>
+    </film>
+  </films>
+  <series>
+    <serie id="1" name="Chernobyl">
+      <seasons>2</seasons>
+      <genre>Drama</genre>
+      <director>Craig Mazin</director>
+      <stars>
+          <star character="Jessie">Jessie Buckley</star>
+          <star character="Constantin">Jared Harris</star>
+          <star character="Lorca">Stellan Skarsgard</star>
+      </stars>
+      <cover>chernobyl.jpg</cover>
+    </serie>
+    <serie id="2" name="Fariña">
+      <seasons>2</seasons>
+      <genre> Crime</genre>
+      <director>Carlos Sedes</director>
+      <stars>
+          <star character="Sito Miñanco">Javier Rey</star>
+          <star character="Darío Castro">Tristán Ulloa</star>
+          <star character="Manuel Charlín">Antonio Durán</star>
+      </stars>
+      <cover>farinya.jpg</cover>
+    </serie>
+    <serie id="3" name="La casa de papel">
+      <seasons>3</seasons>
+      <genre>Action</genre>
+      <director>Álex Pina</director>
+      <stars>
+          <star character="Tokio">Úrsula Corberó</star>
+          <star character="Raquel Murillo">Itziar Ituño</star>
+          <star character="El Profesor">Álvaro Morte</star>
+      </stars>
+      <cover>lacasadepapel.jpg</cover>
+    </serie>
+  </series>
+</video>
