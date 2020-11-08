@@ -4,25 +4,25 @@
             "films": [
                 {
                     "id": 1,
-                    "name": "Terminator",
-                    "genre": "Action",
-                    "director": "James Cameron",
-                    "duration": "2h",
-                    "cover": "terminator.jpg",
+                    "name": "Gremlins",
+                    "genre": "Comedia",
+                    "director": "Joe Dante",
+                    "duration": "1h 46min",
+                    "cover": "gremlins.jpg",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "Randall Peltzer es un inventor de cuestionable éxito que vive en la ficticia comunidad de Kingston Falls y viaja a Chinatown en Nueva York para vender sus inventos y comprar un regalo de Navidad para su hijo Billy.",
                     "stars": [
                         {
-                            "character": "Terminator",
-                            "name": "Arnold Schwarzenegger"
+                            "character": "Billy Peltzer",
+                            "name": "Zach Galligan"
                         },
                         {
-                            "character": "Constantin",
-                            "name": "Linda Hamilton"
+                            "character": "Murray Futherman",
+                            "name": "Dick Miller"
                         },
                         {
-                            "character": "Lorca",
-                            "name": "Michael Biehn"
+                            "character": "Rand Peltzer",
+                            "name": "Hoyt Axton"
                         }
                     ]
                 },
@@ -34,7 +34,7 @@
                     "duration": "2h",
                     "cover": "alien.jpg",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "Alien: el octavo pasajero, o simplemente Alien en su idioma original, es una película de ciencia ficción y terror dirigida por el cineasta británico Ridley Scott y estrenada en 1979. El reparto estuvo integrado por los actores Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm y Yaphet Kotto, y la trama relata el acecho de una criatura alienígena a la tripulación de una nave espacial.",
                     "stars": [
                         {
                             "character": "Dallas",
@@ -52,25 +52,49 @@
                 },
                 {
                     "id": 3,
-                    "name": "Matrix",
+                    "name": "Capitana Marvel",
                     "genre": "Action",
-                    "director": "James Cameron",
-                    "duration": "2h 16min",
-                    "cover": "matrix.jpg",
+                    "director": "Anna Boden",
+                    "duration": "2h",
+                    "cover": "capitanamarvel.jpg",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "En 1995, en el planeta Hala, capital del Imperio Kree, la guerrera y miembro de la Fuerza Estelar Vers sufre de pesadillas recurrentes que involucran a una mujer mayor. Yon-Rogg, su mentor y comandante, le advierte mientras entrenan que controle sus habilidades, y a su vez la Inteligencia Suprema, una inteligencia artificial orgánica que actúa como gobernante Kree, la insta a mantener sus emociones bajo control.",
                     "stars": [
                         {
-                            "character": "Neo",
-                            "name": "Keanu Reeves"
+                            "character": "Capitana Marvel",
+                            "name": "Brie Larson"
                         },
                         {
-                            "character": "Morpheus",
-                            "name": "Laurence Fishburne"
+                            "character": "Nick Fury",
+                            "name": "Samuel L.jackson"
                         },
                         {
-                            "character": "Trinity",
-                            "name": "Carrie-Anne Moss"
+                            "character": "Talos / Keller",
+                            "name": "Ben Mendelsohn"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Prometheus",
+                    "genre": "Sci-Fi",
+                    "director": "Ridley Scott",
+                    "duration": "2h 4min",
+                    "cover": "prometheus.jpg",
+                    "price": "50€",
+                    "sinopsis": "La acción comienza en el planeta Tierra antes del comienzo de la vida. Al borde de una cascada, un extraterrestre humanoide espera mientras una enorme nave espacial, que permanecía inmóvil, empieza a alejarse. El humanoide bebe un líquido negro burbujeante y empieza a desintegrarse. Cuando sus restos corporales caen por la cascada, el ADN del extraterrestre sufre una reacción biogenética dando así el paso para crear la vida en la Tierra.",
+                    "stars": [
+                        {
+                            "character": "Elizabeth Shaw",
+                            "name": "Noomi Rapace"
+                        },
+                        {
+                            "character": "David",
+                            "name": "Michael Fassbender"
+                        },
+                        {
+                            "character": "Janek",
+                            "name": "Idris Elba"
                         }
                     ]
                 }
@@ -79,13 +103,14 @@
         {
             "series": [
                 {
-                    "id": 1,
+                    "id": 5,
                     "name": "Chernobyl",
                     "genre": "Drama",
                     "director": "Craig Mazin",
                     "cover": "chernobyl.jpg",
+                    "season": "1",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "Chernobyl dramatiza la historia del desastre de la planta nuclear de Chernóbil de abril de 1986 que ocurrió en la República Socialista Soviética de Ucrania (Unión Soviética), contando las historias de las personas que causaron el desastre y de quienes respondieron al mismo. La miniserie describe algunas de las historias menos conocidas del desastre, incluyendo los esfuerzos de los bomberos que fueron los primeros en llegar al lugar, los voluntarios y los equipos de mineros encargados de cavar un túnel crítico debajo del reactor 4.",
                     "stars": [
                         {
                             "character": "Jessie",
@@ -102,13 +127,14 @@
                     ]
                 },
                 {
-                    "id": 2,
+                    "id": 6,
                     "name": "Fariña",
                     "genre": "Crime",
                     "director": "Carlos Sedes",
                     "cover": "farinya.jpg",
+                    "season": "1",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "Sito Miñanco, un pescador con destreza manejando la lancha, se inicia en el contrabando de tabaco de la mano de Terito (Vicente Otero Pérez), el jefe de los clanes de la ría de Arousa. Después se establece por su cuenta con otros dos amigos. Para burlar la vigilancia aduanera, sobornan a una patrulla con varias cajas de Winston.",
                     "stars": [
                         {
                             "character": "Sito Miñanco",
@@ -120,18 +146,43 @@
                         },
                         {
                             "character": "Manuel Charlín",
-                            "name": "Antonio Durán"
+                            "name": "Antonio"
                         }
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 7,
+                    "name": "Stranger Things",
+                    "genre": "Misterio",
+                    "director": "Hermanos Duffer",
+                    "cover": "strangerthings.jpg",
+                    "season": "3",
+                    "price": "50€",
+                    "sinopsis": "La historia arranca durante la década de los 80, en el pueblo ficticio de Hawkins, Indiana, cuando un niño llamado Will Byers desaparece misteriosamente, hecho que destapa los extraños sucesos que tienen lugar en la zona, producto de una serie de experimentos que realiza el gobierno en un laboratorio científico cercano.",
+                    "stars": [
+                        {
+                            "character": "Joyce Byers",
+                            "name": "Winona Ryder"
+                        },
+                        {
+                            "character": "Jim Hopper",
+                            "name": "David Harbour"
+                        },
+                        {
+                            "character": "Nancy",
+                            "name": "Natalia Dyer"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
                     "name": "La casa de papel",
                     "genre": "Action",
                     "director": "Álex Pina",
                     "cover": "lacasadepapel.jpg",
+                    "season": "3",
                     "price": "50€",
-                    "sinopsis": "texto",
+                    "sinopsis": "La serie gira en torno a un asalto de varios días preparado contra la Fábrica Nacional de Moneda y Timbre, ubicada en Madrid, España. Un hombre misterioso, conocido como «El Profesor», está planeando el mayor atraco de la historia. Para llevar a cabo el ambicioso plan, se recluta a un equipo de ocho personas con ciertas habilidades que no tienen nada que perder. El objetivo es entrar en la Fábrica e imprimir 2400 millones de euros. Para hacer esto, el equipo requiere once días de reclusión, durante los cuales tendrán que lidiar con las fuerzas de élite de la policía y 67 rehenes.",
                     "stars": [
                         {
                             "character": "Tokio",
