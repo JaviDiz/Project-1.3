@@ -17,18 +17,24 @@
       padding: 5% 20%;
     }
     #box-order {
-      border: solid 1px #ccc;
+      border: solid 1px rgb(0, 0, 0);
       padding: 25px;
       border-radius: 5px;
-      background-color: antiquewhite;
+      background-color: rgb(215, 250, 221);
       margin:auto
+    }
+    p{
+      text-align: center;
+    }
+    #box-center{
+      text-align: center;
     }
   </style>
 </head>
 
 <body>
   <div id="box-order"></div>
-  <div><a href="postermania.html">Seguir comprando</a></div>
+  <div id="box-center"><a href="postermania.html">Seguir comprando</a></div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -45,14 +51,17 @@
   
   <script type="text/javascript">
     let order = JSON.parse(localStorage.getItem("order"));
-    let templateHTML =` 
-      <p>id: ${order.id}</p>
+    let orderHTML =`
+    <div>
+      <p>ID: ${order.id}</p>
       <p>Póster: ${order.posterName}</p>
-      <p>Preu: ${order.price} $euro;</p>
-      <p>Mida: ${order.size}</p>
+      <p>Precio: ${order.price}</p>
+      <p>Medida: ${order.size}</p>
+      <p><img src="./img/carro-compra.png" width="125" height="100" alt="..."></p>
+    </div>
     `; 
     const orderTag = document.querySelector('#box-order');
-    orderTag.innerHTML = templateHTML;
+    orderTag.innerHTML = orderHTML;
 
   </script>
 </body>

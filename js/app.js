@@ -9,7 +9,6 @@ function init() {
     const btnSearch = document.querySelector('#btn-search');
     btnSearch.addEventListener('click', function (e){
         e.preventDefault();
-        //PosterAPI.SearchPosterFilms();
         PosterAPI.searchFilm();
     });
 
@@ -19,7 +18,7 @@ function init() {
         saveOrderInStorage();
     });
 
-    // Action when user changes the quantity of a poster order (modal window)
+    // Acción cuando el usuario cambia la cantidad de un pedido de póster (ventana modal)
     const fieldQuatity = document.querySelector('#order_quantity');
     fieldQuatity.addEventListener('change', function (e) {
         let postPrice = document.querySelector("#order_price");

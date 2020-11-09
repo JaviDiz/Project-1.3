@@ -67,21 +67,21 @@ class PosterAPI {
 
 
     static handleButtonOrder() {
-		// Configure action of every buy button
+		// Configurar la acción de cada botón de compra
 		let aBtn = document.querySelectorAll(".btn-buy");
 		if (aBtn) {
 			aBtn.forEach(item => {
 				item.addEventListener("click", function () {
-					// Init quantity
+					// Init Cantidad
 					document.querySelector("#order_quantity").value = "1";
 					
 
-					// Fields into the Modal
+					// Campos en el Modal
 					let tagPostId = document.querySelector("#order_id");
 					let tagPostName = document.querySelector("#order_name");
 					let tagPostPrice = document.querySelector("#order_price");
 
-					// Put values of poster into every modal field
+					// Colocar valores de póster en cada campo modal
 					let idFilm = item.getAttribute("data-idOrder");
 					tagPostId.value = idFilm; 
 
@@ -90,6 +90,7 @@ class PosterAPI {
 
 					let price = document.querySelector("#film-" + idFilm + " .price").innerHTML;
 					tagPostPrice.value = price;
+
 				});
 			});
 		}
