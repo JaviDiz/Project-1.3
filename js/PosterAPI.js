@@ -136,14 +136,25 @@ class PosterAPI {
             .then(data => {
                 let txtSearch = document.querySelector('#txt-search').value;
                 txtSearch = txtSearch.toLowerCase();
-                let listFilms = data.poster[0].films;
+				let listFilms = data.poster[0].films;
+				let listSeries = data.poster[1].series;
                 let films = listFilms.filter(
                     (item) => (item.name.toLowerCase().indexOf(txtSearch) >-1 )
-                );
+				);
+				let series = listSeries.filter(
+                    (item) => (item.name.toLowerCase().indexOf(txtSearch) >-1 )
+				);
                 if (films.length > 0) {
                     PosterAPI.populateFilms(films);
                 } else {
                     document.querySelector("#list-films").innerHTML = `
+                        <p>Ninguna película coincide con los datos de búsqueda</p>
+                    `;
+				}
+				if (series.length > 0) {
+                    PosterAPI.populateSeries(series);
+                } else {
+                    document.querySelector("#list-series").innerHTML = `
                         <p>Ninguna película coincide con los datos de búsqueda</p>
                     `;
                 }
